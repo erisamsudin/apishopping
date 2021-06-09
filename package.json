@@ -1,5 +1,5 @@
 {
-  "name": "ayu-grosir-rest-api",
+  "name": "shop-rest-api",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.ts",
@@ -10,7 +10,7 @@
     "test": "jest",
     "migration:build": "typeorm migration:create -n MasterRefactoring"
   },
-  "author": "jafar pahrudin",
+  "author": "Eri Samsudin",
   "license": "MIT",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",

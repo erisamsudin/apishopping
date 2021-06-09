@@ -11,11 +11,6 @@ import ShopRepositories from "./masters/ShopRepositories";
 //END MASTER
 
 
-//START SYSTEM SETTING
-import SystemSettingRepositories from "./system/SystemRepositories";
-//START SYSTEM SETTING
-
-
 
 
 class Repository {
@@ -30,14 +25,10 @@ class Repository {
   //START MASTER
   private users: any;
   private shop: any;
-
-    
-//START MASTER
+  //START MASTER
 
 
-  //SYSTEM
-  private systemsetting: any;
-  //SYSTEM
+
 
 
 
@@ -59,7 +50,6 @@ class Repository {
     
 
 
-    this.systemsetting = new SystemSettingRepositories(this._db, this._jf, this._service)        
   }
 }
 

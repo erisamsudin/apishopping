@@ -11,13 +11,6 @@ import ShopRoutes from "./masters/ShopRoutes";
 
 
 
-
-//SYSTEM
-import SystemSettingRoutes from "./system/SystemSettingRoutes";
-//SYSTEM
-
-
-
 class Routes {
   private routeBuilders: any;
 
@@ -26,9 +19,6 @@ class Routes {
       new SetupRoutes(),
       new UserRoutes(),
       new ShopRoutes(),   
-      //SYSTEM
-      new SystemSettingRoutes(),
-      //SYSTEM
     ]
   }
   
