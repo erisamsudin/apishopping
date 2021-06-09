@@ -10,9 +10,9 @@ class ServerDoc {
         description: 'Rest api for ayu grosir',
         termsOfService: 'http://api_url/terms/',
         contact: {
-          name: 'Jafar Pahrudin',
-          email: 'jafar.pahrudin@gmail.com',
-          url: 'https://feliex1992.github.io'
+          name: 'Eri Samsudin',
+          email: 'erisamsudin@gmail.com',
+          url: '-'
         },
         license: {
           name: 'MIT',
