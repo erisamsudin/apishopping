@@ -22,9 +22,11 @@ class Security {
   authenticate() {
     return [
       (req: any, res: any, next: any) => {
-        const token = req.headers["x-auth-token"];
+        // const token = req.headers["x-auth-token"];
+        const gettoken  = req.headers["authorization"];
+        const token = gettoken.replace('Bearer ','');
+        req.autor
         if (!token) return res.status(401).send("Access denied. No token provided.");
-
         try {
           const decoded = jwt.verify(token, this.jwtPrivateKey);
           req.user = decoded;
